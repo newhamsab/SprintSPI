@@ -1,0 +1,31 @@
+/* Custom CSS code */
+
+td a:hover{
+	color: #4286f4;
+}
+
+.maTable th{
+	width:10%;
+}
+
+.navbar-fixed-left {
+  width: 15em;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 14.9em;
+}
+
+.container {
+  padding-left: 15.5em;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+/*.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}*/
